@@ -1,0 +1,13 @@
+@media (max-width: 768px){
+
+    .header_superior{
+        nav a{
+            
+            display: block;
+        }
+    }
+    main{
+        display: flexbox;
+        flex-direction: column;
+    }
+}
