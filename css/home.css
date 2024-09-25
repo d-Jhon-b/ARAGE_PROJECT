@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    background-image:  linear-gradient(45deg, #5de0e6, #014bae);
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    
+}
+.header_superior{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+    justify-content: space-between;
+    display: flex;
+}
+.header_superior .Logo{
+    margin-left: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.header_superior nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header_superior nav a{
+    color: black;
+    margin: 0 35px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+/* parte do main */
+main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+/*parte do texto*/
+.container{
+    width: 50vh;
+    height: 100%;
+}
+main .container .container_texto{
+    width: 90%;
+    height: 90%;
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+}
+#ContainerTexto{
+    font-size: 60px;
+    margin-bottom: 75px;
+    margin-left: 30px;
+}
+.container .links_container{
+    width: 120%;
+    text-align: center;
+    display: flex;
+}
+.links_container a{   
+    color: black;
+    background-color: white;
+    font-family: "Open Sans", sans-serif;
+    height: 30px;
+    width: 70%;
+    border: 1.75px solid black;
+    border-radius: 15px;
+    margin: 0 35px;
+}
+
+/*section img*/
+main .container_img{
+    align-items: center;
+    justify-content: center;
+    width: 60vh;
+    height: 100%;
+}
+main .container_img img{
+    /* height: 45vh;
+    width: 45vh; */
+    height: 100%;
+    width: 100%;
+    margin-right: 20%;
+}
+/*footer*/
+.Contatos{
+    position: absolute;
+    color: white;
+    width: 100%;
+    height: 25vh;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+.Contatos h1{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+#lista_contatos{
+    justify-content: space-around;
+    margin-top: 30px;
+    text-align: center;
+    gap: 100px ;
+    display: flex;
+    li{
+        color: white;
+    }
+}
+#lista_contatos img{
+    margin-right: 20px ;
+    height: 20px;
+    width: 20px;
+}
