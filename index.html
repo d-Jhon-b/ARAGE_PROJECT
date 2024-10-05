@@ -1,79 +1,229 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arage</title>
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/geral.css">
-    <link rel="stylesheet" href="css/homeResponsivo.css">
+    <title>HOME</title>
+    <link rel="stylesheet" href="src/home/css/body/body.css">
+    <link rel="stylesheet" href="src/StyleGeral/style.css">
+    <link rel="stylesheet" href="src/home/css/header/header.css">
+    <link rel="stylesheet" href="src/home/css/homePageResponsive.css">
+
+    <link rel="stylesheet" href="src/home/css/inicio/Inicio.css">
+    <link rel="stylesheet" href="src/home/css/inicio/inicioResposnivo.css">
+
+    <link rel="stylesheet" href="src/home/css/artista-semana/ArtistasSemana.css">
+    <link rel="stylesheet" href="src/home/css/artista-semana/ArtistaSemanaResponsivo.css">
+
+    <link rel="stylesheet" href="src/home/css/artistasNew.css">
+    <link rel="stylesheet" href="src/home/css/present-arage-pro.css">
+    <link rel="stylesheet" href="src/home/css/buy-arage-pro.css">
+    <link rel="stylesheet" href="src/home/css/footer.css">
+    <link rel="stylesheet" href="src/home/css/buttons/itens.css">
 </head>
 <body>
-    <header class="header_superior">
-        <div class="Logo"><strong><a href="index.html" target="_blank">ARAGE</a></strong>  <!---<img src="" alt=""> ---></div>
-        <nav>
-            
+    <header>
+    <section class="header-superior">
+        <nav class="nav-bar">
+            <div class="logo"> 
+                <a href="index.html"><strong>ARAGE</strong></a>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="/" class="nav-link">ALBUNS</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">ARTISTA</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">MUSICAS</a></li>
+                    <li class="nav-item"><a href="/" class="nav-link">COMENTARIOS</a></li>
+                </ul>
+            </div>
+            <div class="login-btn">
+                <button><a href="">ENTRAR</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="mobileMenu()">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </button>
+            </div>
         </nav>
-        <nav> 
-            <a href=""><strong>Home </strong></a>
-            <a href=""><strong>Albuns</strong></a>
-            <a href=""><strong>Musicas</strong></a>
-            <a href=""><strong>Login</strong></a>
-        </nav>
-        
+    </section>
+        <div class="mobile-menu" id="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="#">ALBUNS</a></li>
+                <li class="nav-item"><a href="#">ARTISTA</a></li>
+                <li class="nav-item"><a href="#">MUSICAS</a></li>
+                <li class="nav-item"><a href="#">COMENTARIOS</a></li>
+            </ul>
+            <div class="login-btn">
+                <button><a href="">ENTRAR</a></button>
+            </div>
+        </div>
     </header>
     <main>
         <section class="home">
-            <section class="container">
-                    <h1 id="ContainerTexto">Faça seus comentários</h1>
-                    <div class="links_container">
-                        <a href="" id="Comentar"><strong>Comentar</strong></a>
-                        <a href="" target="_blank" id="Login"><strong>Fazer Login</strong></a>
-                    </div>
-                </section>
-            <section class="container_img">
-                <img src="img/arage_sem_fundo.png" alt="">
-            </section>
+            <article class="inicio-lateral-esquerda">
+                <div id="Titulo-lateral-esquerda" class="inicio-esquerda">
+                    <h1 id="titulo-esquerda">Faça seus <br>comentarios</h1>
+                </div>
+                <div class="inicio-esquerda" id="button-home-esqueda">
+                    <button id="to-coment" class="btn-home"><strong>Comentar</strong></button>
+                    <button id="to-login" class="btn-home"><strong>Fazer Login</strong></button>
+                </div>
+            </article>
+            <article class="inicio-lateral-direita">
+                    <img src="src/component-img/img-logos/arage_logo_semfundo.png" alt="ARAGE" id="logo-arage">
+            </article>
         </section>
-        <br><br><br><br>
-        <section class="Artistas"></section>
-            <div class="Titulo">
+        <section class="artistas-semana">
+            <div class="titulo-section">
                 <h1><strong>Artista da Semana</strong></h1>
             </div>
-            <div class="img_cantores">
-                <div>
-                    <img src="img/artistas/the_weeknd.jfif" alt="the_weeknd">
+            <section class="img-content">
+                <article class="container-img">
+                    <div class="img-artista">
+                        <img src="src/component-img/img-cantores/the_weeknd.jfif" alt="The weeknd" class="img-week">
+                    </div>
+                    <div class="description-artista">
                         <h2><strong>THE WEEKND</strong></h2>
-                        <h3>popular</h3>
-                </div>
-
-                <div>
-                    <img src="img/artistas/drake.jfif" alt="drake">
-                    <h2><strong>DRAKE</strong></h2>
-                    <h3>one dance</h3>
-                </div>
-
-                <div>
-                    <img src="img/artistas/justin.jfif" alt="justin_bieber">
-                    <h2><strong>JUSTIN BIEBER</strong></h2>
-                    <h3>stray</h3>
-                </div>
-            </div>
-            <div class="button_action">
-                <button id="btn_confira"><a href="/"><strong>CONFIRA</strong></a></button>
+                        <p>popular</p>
+                    </div>
+                </article>
+                <article class="container-img">
+                    <div class="img-artista">
+                        <img src="src/component-img/img-cantores/drake.jfif" alt="Drake" class="img-week">
+                    </div>
+                    <div class="description-artista">
+                        <h2><strong>Justin Bieber</strong></h2>
+                        <p>one dance</p>
+                    </div>
+                </article>
+                <article class="container-img">
+                    <div class="img-artista">
+                        <img src="src/component-img/img-cantores/justin.jfif" alt="Justin" class="img-week">
+                    </div>
+                    <div class="description-artista">
+                        <h2><strong>Justin Bieber</strong></h2>
+                        <p>stray</p>
+                    </div>
+                </article>
+        </section>
+            <div class="button-home">
+                <button class="btn-home" id="btn-confira"><strong>CONFIRA</strong></button>
             </div>
         </section>
+        <section class="artistas-semana-mobile">
+            <div class="container-carrossel"> 
+                <div id="carrossel">
+                    <div class="item "><img src="src/component-img/img-cantores/the_weeknd.jfif" alt="teste"></div>
+                    <div class="item "><img src="src/component-img/img-cantores/drake.jfif" alt="teste"></div>
+                    <div class="item "><img src="src/component-img/img-cantores/justin.jfif" alt=""></div>
+                </div>
+            </div>
+        </section>
+
+        <br>
+        <section class="artista-new">
+            <article class="new-artista-esquerda">
+                <div class="text-new-artista">
+                    <h1><strong>Artista Revelação</strong></h1>
+                    <p>
+                        Ahn Hye-jin, conhecida profissionalmente pelo seu nome <br>
+                        artístico Hwasa, é uma cantora, compositora, rapper e <br>
+                        modelo sul-coreana. É integrante do grupo feminino <br>
+                        Mamamoo, que estreou em 18 de junho de 2014 com o <br>
+                        single "Mr. Ambiguous"
+                    </p>
+                </div>
+                <div class="button-new-artista">
+                    <button class="btn-home"><a href="/"><strong>CONFIRA</strong></a></button>
+                </div>
+            </article>
+            <article class="new-artista-direita">
+                <h1>Hwasa</h1>
+                <img src="src/component-img/img-cantores/hwasa.jfif" alt="hwasa" id="new-artista-img">
+            </article>
+        </section>
+        <section class="present-arage-pro">
+            <article class="present-arage-esquerda">
+                <h1><strong>Arage PRO</strong></h1>
+                <p> Com o Arage Pro, você pode desfrutar de uma <br>
+                    experiência sem anúncios, garantindo que nada <br>
+                    interrompa sua navegação ou uso do site. Além disso, ele <br>
+                    oferece qualidade de áudio superior, permitindo que você <br>
+                    aproveite o conteúdo com mais nitidez e clareza. Outras <br>
+                    vantagens incluem o acesso offline, permitindo que você <br>
+                    utilize o serviço mesmo sem conexão à internet, e <br>
+                    funcionalidades exclusivas, que tornam a experiência mais <br>
+                    personalizada e eficiente.
+                    </p>
+            </article>
+            <article class="present-arage-direita">
+                <div>
+                    <img src="src/" alt="arage-pro">
+                </div>
+            </article>
+        </section>
+        <section class="buy-arage-pro">
+            <article class="buy-arage-pro-esquerda">
+                    <div>    
+                    <h1><strong>
+                        Cadastre-se e <br>
+                        ganhe 1 mês de <br>
+                        Arage PRO
+                    </strong></h1>
+                </div>
+                <div class="button-arage-pro">
+                    <button class="btn-home"><a href="/"><strong>Cadastre-se</strong></a></button>
+                </div>
+            </article>
+            <article class="buy-arage-pro-esquerda">
+                <img src="src/component-img/img-logos/arage-pro-2.jpg" alt="">
+            </article>
+        </section>
     </main>
-    <br><br><br><br>
     <!-- <footer>
-        <div class="Contatos">
-            <h1>Nossas Redes Socias</h1>
-            <ul id="lista_contatos">
-                <li><img src="img/icones/zapzap_feito.png" alt="">WhatsApp</li>
-                <li><img src="img/icones/facebookfeito.png" alt="">Facebook</li>
-                <li><img src="img/icones/messagerFfeito.png" alt="">Messager</li>
-            </ul>
-        </div>
+        <article class="contato-titulo">
+            <h1><strong>Entre em contato</strong></h1>
+            <h2><strong>arage@gmail.com</strong></h2>
+        </article>
+        <article class="contato-content">
+            <div class="CRIADORES">
+                <h2><strong>CRIADORES</strong></h2>
+                <ul>
+                    <li>Alex</li>
+                    <li>Gabriel</li>
+                    <li>Gustavo</li>
+                    <li>Jhon</li>
+                    <li>Marcos</li>
+                </ul>
+            </div>
+            <div class="ESCRITORIO">
+                <h2><strong>MÍDIAS SOCIAIS</strong></h2>
+                <ul>
+                    <li>Rua qualquer</li>
+                    <li>Cidade</li>
+                    <li>Estado, País</li>
+                    <li>(12) 34567-7890</li>
+                </ul>
+            </div>
+            <div class="MÍDIAS SOCIAIS">
+                <h2><strong>MÍDIAS SOCIAIS</strong></h2>
+                <ul>
+                    <li>Facebook</li>
+                    <li>WhatsApp</li>
+                    <li>Messager</li>
+                    <li>Twitter</li>
+                </ul>
+            </div>
+        </article>
     </footer> -->
+    <script src="src/home/js/home.js" defer></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
 </body>
 </html>

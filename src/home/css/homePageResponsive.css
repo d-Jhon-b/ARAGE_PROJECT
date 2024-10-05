@@ -1,0 +1,59 @@
+/*RESPONSIVIDADE*/
+@media screen and (max-width: 768px){
+    .nav-bar{padding: 1.5rem 4rem;}
+    .nav-item{display: none;}
+    .login-btn{display: none;}
+    .mobile-menu-icon{display: block;}
+    .mobile-menu-icon button{
+        height: 30px;
+        width: 30px;
+        background-color: transparent /*transparent*/;
+        border: none;
+        cursor: pointer;
+    }
+    .header-superior{
+        z-index: 80;
+    }
+    .mobile-menu-icon button div{
+        display: block;
+    }
+    .mobile-menu{
+        padding-top: 5%;
+        width: 100%;
+        z-index: 20;
+        position: fixed;
+        background-color: black;
+    }
+    .mobile-menu ul{
+        padding-top: 5%;
+        align-content: center;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(46, 46, 46);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding-bottom: 1rem;
+        gap: 10px;
+    }
+    .mobile-menu .nav-item{
+        display: block;
+        padding-top: 1rem 2rem;
+    }
+    .mobile-menu a{
+        color: white;
+    }
+    .mobile-menu .login-btn{
+        display: block;
+        padding-top: 1rem 2rem;
+    }
+    .mobile-menu .login-btn button{
+        width: 100%;
+    }
+    .open{
+        display: block;
+    }
+    
+    
+    
+}

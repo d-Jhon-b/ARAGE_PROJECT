@@ -1,0 +1,73 @@
+.artistas-semana{
+    display: block;
+    position: relative;
+    border: 3px solid black;
+}
+.artistas-semana{
+    width: 100%;
+    height: 90vh;
+    align-content: center;
+    text-align: center;
+}
+.titulo-section{
+    width: 100%;
+    height: 15%;
+    align-content: center;
+    /* background-color: aqua; */
+    h1{
+        font-size: 42px;
+        display: inline;
+    }
+}
+.img-content{
+    /* background-color: bisque; */
+    height: 70%;
+    display: flex;
+    width: 100%;
+    /* border: 10px solid rgb(135, 173, 125); */
+    justify-content: space-between;
+    align-items: center;
+    /* border: 3px solid red; */
+}
+.container-img{
+    width: 33%;
+    height: 80%;
+    /* border: 3px solid green; */
+    display: block;
+    align-content: center;
+}
+.img-artista{
+    margin-left: 25%;
+    width: 50%;
+    height: 70%;
+    border-radius: 0 40px 0 40px;
+    background-color: white;
+}
+.description-artista{
+    height: 30%;
+}
+.img-week{
+    padding-top: 10%;
+    border-radius: 0 45px 0;
+    width: 90%;
+    height: 80%;
+}
+.button-home{
+    align-content: center;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+}
+.button-home{
+    height: 15%;
+    /* border: 3px solid red; */
+}
+.container-carrossel{
+    display: none;
+    .carrossel{
+        display: none;
+        .item{
+            display: none;
+        }
+    }
+}

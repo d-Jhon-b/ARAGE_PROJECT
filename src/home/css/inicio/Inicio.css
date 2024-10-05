@@ -1,0 +1,44 @@
+main{
+    height: 75%;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.inicio-lateral-esquerda {
+    position: relative;
+    width: 50vw;
+    height: 90vh;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+    overflow-wrap: anywhere;
+}
+.inicio-lateral-direita{
+    position: relative;
+    width: 50vw;
+    height: 90vh;
+}
+
+.inicio-lateral-esquerda .inicio-esquerda{
+    padding-top: 15%;
+}
+#titulo-esquerda{
+    width: 100%;
+    font-weight: 100;
+    font-size: 64px;
+    text-align: center;
+}
+.inicio-lateral-direita{
+    display: inline-block;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+#logo-arage{
+    height: 90%;
+    width: 80%;
+}
