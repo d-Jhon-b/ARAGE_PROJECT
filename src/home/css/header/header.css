@@ -5,20 +5,31 @@
 
 header{
     position: static;
-    height: 12vh;
+    height: 14vh;
+    display: flex;
     justify-content: center;
+    text-align: center;
+    align-content: center;
     background-color: black;
     box-shadow: 0px 3px 10px #464646;
     border: 3px solid black;   
 }
 .header-superior{
+    margin-left: 10%;
+    border-radius: 25px;
     z-index: 100;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 90%;
     height: 12vh;
     position: fixed;
     background-color: black;
+    padding-bottom: 15px;
+    opacity: 70%;
+}
+.header-superior:hover{
+    opacity: 100%;
+    transition: 0.25s;
 }
 .nav-bar{display: flex; justify-content: space-between; padding: 1.5rem 6rem;}
 .logo{
@@ -81,7 +92,10 @@ header{
 .mobile-menu-icon{
     justify-content: center;
     display: none;
-} .mobile-menu{display: none;}
+} .mobile-menu{
+    margin-top: 10%;
+    display: none;
+}
 .mobile-menu-icon button div{
     display: none;
     background-color: white;

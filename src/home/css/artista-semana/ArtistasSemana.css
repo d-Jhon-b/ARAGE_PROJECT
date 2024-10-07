@@ -1,7 +1,7 @@
 .artistas-semana{
     display: block;
     position: relative;
-    border: 3px solid black;
+    width: 100%;
 }
 .artistas-semana{
     width: 100%;
@@ -25,7 +25,7 @@
     display: flex;
     width: 100%;
     /* border: 10px solid rgb(135, 173, 125); */
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     /* border: 3px solid red; */
 }
@@ -36,21 +36,33 @@
     display: block;
     align-content: center;
 }
+#artista1{
+    padding-left: 10%;
+}
+#artista3{
+    padding-right: 10%;
+}
 .img-artista{
     margin-left: 25%;
-    width: 50%;
-    height: 70%;
+    width: 55%;
+    height: 90%;
     border-radius: 0 40px 0 40px;
     background-color: white;
 }
 .description-artista{
+    padding-top: 10%;
     height: 30%;
+    
+}
+.description-artista h2{
+    font-weight: 300%;
+    font-size: 18px;
 }
 .img-week{
     padding-top: 10%;
-    border-radius: 0 45px 0;
-    width: 90%;
-    height: 80%;
+    border-radius: 0 35% 0 0;
+    height: 50%;
+    width: 80%;
 }
 .button-home{
     align-content: center;
@@ -62,12 +74,7 @@
     height: 15%;
     /* border: 3px solid red; */
 }
-.container-carrossel{
+
+.mobile-artistas-semana{
     display: none;
-    .carrossel{
-        display: none;
-        .item{
-            display: none;
-        }
-    }
 }

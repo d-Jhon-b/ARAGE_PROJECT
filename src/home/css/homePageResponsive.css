@@ -1,5 +1,16 @@
 /*RESPONSIVIDADE*/
-@media screen and (max-width: 768px){
+@media  (max-width: 768px) and (min-width: 300px ){
+    
+    header{
+        width: 100vw;
+    }
+    .header-superior{
+        width: 100%;
+        border-radius: 0px;
+        opacity: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
     .nav-bar{padding: 1.5rem 4rem;}
     .nav-item{display: none;}
     .login-btn{display: none;}

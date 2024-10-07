@@ -1,19 +1,22 @@
 @media screen and (max-width: 768px) {
+    .mobile-artistas-semana{
+    display: block;
+    }
+    
     .artistas-semana{
         display: none;
     }
     .mobile-artistas-semana{
-        max-width: 768px;
+        max-width: 100%;
         margin: 0 auto;
-        width: 100%;
+        width: 768px;
         border-radius: 10px;
         height: 400px;
         overflow: hidden;
         /* border: 3px solid red; */
     }
     .slides{
-        width: 400%;
-        
+        width: 150%; 
         height: 400px;
         display: flex;
     }
@@ -21,23 +24,25 @@
         display: none;
     }
     .slide{
-        width: 100%;
+        width: 600PX;
         position: relative;
         text-align: center;
+        margin: 0 5% 0;
+
     }
     .slide img{
+        width: 500px;
         border-radius: 20px;
-        width: 600px;
         height: 100%;
     }
-    #img-1{
-        padding-right: 25%;
-    }
+     #img-1{
+        border-radius: 10px;
+        margin-left: 100px;
+    }/*
     #img-3{
-        width: 600px;
         height: 100%;
         margin: 0%;
-    }
+    } */
     .manual-navigation{
         position: absolute;
         width: 100%;
@@ -62,13 +67,15 @@
     }
     #radio1:checked ~ .um{
         margin-left: 0;
+        transition: 1s;
     }
     #radio2:checked ~ .um{
-        margin-left: -75%;
+        margin-left: -60%;
+        transition: 1s;
     }
     #radio3:checked ~ .um{
-        margin-left: -237.1%;
-        z-index: 100;
+        margin-left: -135%/*-237.1%*/;
+        transition: 1s;
     }
     .navigation-auto div{
         border: 3px solid black;
