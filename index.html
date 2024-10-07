@@ -62,6 +62,7 @@
         </div>
     </header>
     <main>
+        <!-- progrededindo -->
         <section class="home">
             <article class="inicio-lateral-esquerda">
                 <div id="Titulo-lateral-esquerda" class="inicio-esquerda">
@@ -83,7 +84,7 @@
             <section class="img-content">
                 <article class="container-img">
                     <div class="img-artista">
-                        <img src="src/component-img/img-cantores/the_weeknd.jfif" alt="The weeknd" class="img-week">
+                        <img src="src/home/components/img-cantores/the_weeknd.jfif" alt="The weeknd" class="img-week">
                     </div>
                     <div class="description-artista">
                         <h2><strong>THE WEEKND</strong></h2>
@@ -92,16 +93,16 @@
                 </article>
                 <article class="container-img">
                     <div class="img-artista">
-                        <img src="src/component-img/img-cantores/drake.jfif" alt="Drake" class="img-week">
+                        <img src="src/home/components/img-cantores/drake.jfif" alt="Drake" class="img-week">
                     </div>
                     <div class="description-artista">
-                        <h2><strong>Justin Bieber</strong></h2>
+                        <h2><strong>Drake</strong></h2>
                         <p>one dance</p>
                     </div>
                 </article>
                 <article class="container-img">
                     <div class="img-artista">
-                        <img src="src/component-img/img-cantores/justin.jfif" alt="Justin" class="img-week">
+                        <img src="src/home/components/img-cantores/justin.jfif" alt="Justin" class="img-week">
                     </div>
                     <div class="description-artista">
                         <h2><strong>Justin Bieber</strong></h2>
@@ -113,14 +114,35 @@
                 <button class="btn-home" id="btn-confira"><strong>CONFIRA</strong></button>
             </div>
         </section>
-        <section class="artistas-semana-mobile">
-            <div class="container-carrossel"> 
-                <div id="carrossel">
-                    <div class="item "><img src="src/component-img/img-cantores/the_weeknd.jfif" alt="teste"></div>
-                    <div class="item "><img src="src/component-img/img-cantores/drake.jfif" alt="teste"></div>
-                    <div class="item "><img src="src/component-img/img-cantores/justin.jfif" alt=""></div>
+        <!-- progredidno -->
+         <!-- slides -->
+         <section class="mobile-artistas-semana">
+            <nav class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <div class="slide um">
+                    <img src="src/home/components/img-cantores/the_weeknd.jfif" alt="imagem 1" id="img-1">
                 </div>
+                <div class="slide dois">
+                    <img src="src/home/components/img-cantores/drake.jfif" alt="imagem 1" id="img-2">
+                </div>
+                <div class="slide tres">
+                    <img src="src/home/components/img-cantores/justin.jfif" alt="imagem 1" id="img-3">
+                </div>
+                <!-- fim slides -->
+                <div class="navigation-auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                </div>
+            </nav>
+            <div class="manual-navigation">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
             </div>
+
         </section>
 
         <br>
@@ -220,7 +242,7 @@
         </article>
     </footer> -->
     <script src="src/home/js/home.js" defer></script>
-
+    <script src="src/home/js/artista-semana.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
