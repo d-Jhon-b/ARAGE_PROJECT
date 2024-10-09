@@ -15,7 +15,7 @@ header{
     border: 3px solid black;   
 }
 .header-superior{
-    margin-left: 10%;
+    padding: 0 5% 0;
     border-radius: 25px;
     z-index: 100;
     top: 0;
@@ -24,7 +24,7 @@ header{
     height: 12vh;
     position: fixed;
     background-color: black;
-    padding-bottom: 15px;
+    padding-bottom: 10px;
     opacity: 70%;
 }
 .header-superior:hover{

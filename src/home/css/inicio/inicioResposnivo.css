@@ -6,7 +6,10 @@
     opacity: 0.7;
     width: 100%;
    }
-
+   .inicio-lateral-esquerda:hover{
+    transition: 1s;
+    opacity: 100%;
+   }
    .Titulo-lateral-esquerda{
    }
    #titulo-esquerda{

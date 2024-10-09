@@ -1,0 +1,38 @@
+.artista-new{
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.artista-new article{
+    width: 50%;
+    border: 3px solid black;
+}
+.new-artista-esquerda{
+    text-align: justify;
+}
+.text-new-artista{
+    width: 100%;
+    height: 60%;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+
+}  
+.button-new-artista{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+    align-items: center;
+}  
+.new-artista-esquerda .text-new-artista > h1{
+    text-align: center;
+}
+.text-new-artista > p{
+    line-height: 1.5rem;
+    word-spacing: 3px;
+    font-size: 1rem;
+    padding: 0 15% 0;
+}
