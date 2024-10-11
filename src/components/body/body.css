@@ -4,5 +4,5 @@ body{
     height: 100%;
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
-    overflow: scroll;
+    overflow: hidden;
 }
