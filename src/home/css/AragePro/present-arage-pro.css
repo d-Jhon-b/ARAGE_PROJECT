@@ -18,7 +18,7 @@
     .titulo-arage-pro{
         height: 15%;
         /* border: 3px solid black; */
-        h1{color: white; font-size: 40px; padding-right: 15%;}  
+        h1{color: white; font-size: 40px; padding-right: 8%;}  
       
     }
     .present-arage-esquerda{
@@ -42,7 +42,7 @@
     .text-arage-pro > p{
         line-height: 2rem;
         word-spacing: 3px;
-        font-size: 24px;
+        font-size: 16px;
         padding: 0 15% 0;
     }
     

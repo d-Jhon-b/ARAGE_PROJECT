@@ -61,46 +61,78 @@
     /* border: 3px solid black; */
     text-align: center;
 }
-.titulo-artista-new{
-    width: 100%;
+.text-new-artista{
+    padding-top: 10%;
+    /* background-color: aqua; */
+    height: 100%;
     text-align: center;
-    border: 3px solid black;
+    /* border: 3px solid black; */
 }
-
+.titulo-new-artista{
+    height: 15%;
+    h1{
+        padding-right: 6%;
+        font-size: 30px;
+        font-weight: 900;
+        color: rgb(255, 255, 255);
+    }
+    /* border: 3px solid black; */
+}
 .new-artista-esquerda{
+    width: 100%;
+    height: 78vh;
     text-align: justify;
 }
 .text-new-artista{
     width: 100%;
-    height: 30%;
-    display: block;
+    height: 100%;
     justify-content: center;
     align-items: center;
-    margin-top: 170px;
+    /* margin-top: 170px; */
     /* text-align: center; */
-    
 
 }  
+.artista-description{
+    margin-left: 25%;
+    text-align: justify;
+    height: 40%;
+    width: 60%;
+    /* border: 3px solid black ; */
+    
+}
+.artista-description > p{
+    font-size: 18px;
+    line-height: 2rem;    
+}
 .button-new-artista{
+    /* border: 3px solid black; */
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 40%;
+    height: 10%;
     align-items: center;
 }  
 .new-artista-esquerda .text-new-artista > h1{
     text-align: center;
 }
-.text-new-artista > p{
-    line-height: 1.5rem;
-    word-spacing: 3px;
-    font-size: 1rem;
-    padding: 0 15% 0;
+.new-artista-direita{
+    padding-top: 1%;
+    /* border: 3px solid black; */
+    width: 100%;
+    height: 90vh;
+    overflow: hidden;
+}
+.new-artista-direita > h1{
+    padding-top: 2%;
+    
+    font-size: 30px;
+    font-weight: 900;
+    color: white;
 }
 #new-artista-img{
-    border-radius: 0 15% 0 15%;
-    width: 70%;
     height: 80%;
+    width: 45%;
+    border-radius: 0 15% 0 15%;
     text-align: center;
     /* margin-top: 40px; */
 }
@@ -109,5 +141,4 @@
     margin-left: 94px;
     margin-top: 60px;
 }
-
 
