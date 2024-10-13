@@ -14,7 +14,7 @@
     .nav-bar{padding: 1.2rem 4rem;}
     .nav-item{display: none;}
     .login-btn{display: none;}
-    .mobile-menu-icon{display: block; padding-top: 5%;}
+    .mobile-menu-icon{display: block;}
     .mobile-menu-icon button{
         height: 30px;
         width: 30px;
@@ -29,7 +29,7 @@
         display: block;
     }
     .mobile-menu{
-        padding-top: 3%;
+        padding-bottom: 5%;
         width: 100%;
         z-index: 20;
         position: fixed;
