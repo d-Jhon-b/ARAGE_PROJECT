@@ -4,11 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
-    <link rel="stylesheet" href="src/home/css/body/body.css">
-    <link rel="stylesheet" href="src/StyleGeral/style.css">
+    <link rel="stylesheet" href="./src/components/ComponentesGerais/body/body.css">
+    <link rel="stylesheet" href="src/components/StyleGeral/style.css">
 
-    <link rel="stylesheet" href="src/home/css/header/header.css">
-    <link rel="stylesheet" href="src/home/css/homePageResponsive.css">
+    <link rel="stylesheet" href="src/components/ComponentesGerais/header/header.css">
+    <link rel="stylesheet" href="src/components/ComponentesGerais/header/homePageResponsive.css">
 
     <link rel="stylesheet" href="src/home/css/inicio/Inicio.css">
     <link rel="stylesheet" href="src/home/css/inicio/inicioResposnivo.css">
@@ -18,10 +18,13 @@
 
     <link rel="stylesheet" href="src/home/css/ArtistasNew/artistasNew.css">
     <link rel="stylesheet" href="src/home/css/ArtistasNew/artistasNewResponsivo.css">
-    <link rel="stylesheet" href="src/home/css/present-arage-pro.css">
-    <link rel="stylesheet" href="src/home/css/buy-arage-pro.css">
-    <link rel="stylesheet" href="src/home/css/footer.css">
+
+    <link rel="stylesheet" href="src/home/css/AragePro/buy-arage-pro.css">
+    <link rel="stylesheet" href="src/home/css/AragePro/present-arage-pro.css">
+
     <link rel="stylesheet" href="src/home/css/buttons/itens.css">
+    <link rel="stylesheet" href="src/components/ComponentesGerais/footer/footer.css">
+
 </head>
 <body>
     <header>
@@ -63,6 +66,7 @@
             </div>
         </div>
     </header>
+
     <main>
         <!-- progrededindo -->
         <section class="home">
@@ -76,7 +80,7 @@
                 </div>
             </article>
             <article class="inicio-lateral-direita">
-                    <img src="src/component-img/img-logos/arage_sem_fundo.png" alt="ARAGE" id="logo-arage">
+                    <img src="src/components/img-logos/arage_sem_fundo.png" alt="ARAGE" id="logo-arage">
             </article>
         </section>
         <section class="artistas-semana">
@@ -148,19 +152,20 @@
 
         </section>
 
-        <br>
         <section class="artista-new">
             <article class="new-artista-esquerda">
                 <div class="text-new-artista">
-                    <h1><strong>Artista Revelação</strong></h1>
+                    <h1>Artista Revelação</h1>
                     <br>
-                    <p>
+                    <div class="artista-description">
+                        <p>
                         Ahn Hye-jin, conhecida profissionalmente pelo seu nome <br>
                         artístico Hwasa, é uma cantora, compositora, rapper e <br>
                         modelo sul-coreana. É integrante do grupo feminino <br>
                         Mamamoo, que estreou em 18 de junho de 2014 com o <br>
                         single "Mr. Ambiguous"
-                    </p>
+                        </p>
+                    </div>
                 </div>
                 <div class="button-new-artista">
                     <button class="btn-home"><a href="/"><strong>CONFIRA</strong></a></button>
@@ -245,7 +250,7 @@
             </div>
         </article>
     </footer> -->
-    <script src="src/home/js/home.js" defer></script>
+    <script src="src/components/ComponentesGerais/header/js/header.js" defer></script>
     <script src="src/home/js/artista-semana.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

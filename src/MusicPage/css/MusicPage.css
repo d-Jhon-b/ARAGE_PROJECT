@@ -1,0 +1,37 @@
+.Ranking{
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    display: grid; place-items: center;
+}
+.Titulo{
+    margin: 10px;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 600;
+    color: white;
+    width: 100%;
+    height: 10vh;
+} 
+.Placar{
+    border-radius: 30px;
+    background-color: none ;
+    width: 90%;
+    height: 100vh;
+    
+}
+.backgroud{
+    margin-top: 5%;
+    height: 100vh;
+    width: 90%;
+    position: absolute;
+    background: linear-gradient(180deg, rgb(26, 26, 26), black);
+    opacity: 50%;
+    border-radius: 30px;
+}
+
+body::-webkit-scrollbar-track {
+    background: orange;        /* color of the tracking area */
+  
+}

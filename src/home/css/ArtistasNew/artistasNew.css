@@ -2,37 +2,48 @@
     display: flex;
     position: relative;
     width: 100%;
-    height: 100vh;
+    height: 80vh;
 }
 .artista-new article{
     width: 50%;
     border: 3px solid black;
 }
 .new-artista-esquerda{
-    text-align: justify;
+    display: block;
+    align-content: center;
+    
 }
 .text-new-artista{
     width: 100%;
     height: 60%;
-    display: block;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
+    display: grid;
+    place-items: center;
+    padding: 10%  0 ;
+    border: 3px solid black;
 
 }  
+.artista-description{
+     padding-left: 10% ;
+}
+.new-artista-esquerda .text-new-artista > h1{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 100;
+    border: 3px solid black;
+}
+.text-new-artista > div{ 
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    width: 90%;
+    height: 80%;
+}
 .button-new-artista{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 40%;
+    height: 10%;
     align-items: center;
+    border: 3px solid black;
 }  
-.new-artista-esquerda .text-new-artista > h1{
-    text-align: center;
-}
-.text-new-artista > p{
-    line-height: 1.5rem;
-    word-spacing: 3px;
-    font-size: 1rem;
-    padding: 0 15% 0;
-}
+
