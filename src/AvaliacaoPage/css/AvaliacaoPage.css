@@ -1,0 +1,46 @@
+main{
+    padding-top: 3%;
+    height: 100vh;
+    width: 100%;
+    background: none;
+    display: flex;
+    justify-content: center;
+    
+}
+.section-yt{
+    width: 80%;
+    height: 100%;   
+}
+.lado_esquerdo{background: none;
+    overflow: hidden; width: 20%; height: 100%
+}
+.lado_direito{width: 80%; height: 100%;}
+.yt-video{
+    display: flex;
+    height: 80vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.texto_foto{
+}
+.foto1{
+    background-image: url('../components-img/hwasa_cut.png'); background-repeat: no-repeat; background-size: cover;
+    height: 74.5vh;
+    width: 100%;
+}
+#foto{
+    height: 100%;
+    width: 100%;
+}
+.video-yt{
+    width: 100%;
+    height: 74.5vh;
+}
+#video{
+    background-color: black;
+    width: 100%;
+    height: 74.5vh;
+    text-decoration: none;
+    border-style: none;
+}

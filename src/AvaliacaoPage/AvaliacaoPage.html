@@ -9,6 +9,8 @@
     <link rel="stylesheet" href ="../components/ComponentesGerais/header/header.css">
     <link rel="stylesheet" href="../components/ComponentesGerais/header/homePageResponsive.css">
     <link rel="stylesheet" href="../components/ComponentesGerais/footer/footer.css">
+
+    <link rel="stylesheet" href="css/AvaliacaoPage.css">
 </head>
 <body>
     <header>
@@ -49,22 +51,27 @@
                     <button><a href="">ENTRAR</a></button>
                 </div>
             </div>
-        </header>
+    </header>
 
         <main>
-            <section>
+            <section class="section-yt">
+                <div class="yt-video">
                 <article class="lado_esquerdo">
-                    <div><h1>Hwasa</h1></div>
+                    <div class="texto_foto"><h1>Hwasa</h1></div>
+                    <!--Gambiarra da desgraça, mas tá rodando-->
                     <div class="foto1">
-                        <img src="" alt="">
+                        <!-- <img src="components-img/hwasa.jfif" alt="HWASA" id="foto"> -->
                     </div>
                 </article>
                 <article class="lado_direito"> 
-                    <div><h1>Maria</h1></div>
-                    <div class="foto2">
-                        <img src="" alt="">
+                    <div class="texto_foto"><h1>Maria</h1></div>
+                    <div class="video-yt">
+                        <iframe  id="video" src="https://youtube.com/embed/-M5H_0Gx9Qg" frameborder="10px" allowfullscreen></iframe>
+                        <!-- <iframe id="video" width="100%" height="100%" src="https://www.youtube.com/embed/-M5H_0Gx9Qg?si=1_5ftaxFAbMIPFZo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>--->
                     </div>
                 </article>
+                </div>
+
                 <article>
                     <div class="Compositor">
                         <h2>Compositor</h2>
@@ -77,9 +84,10 @@
                         <h2>Pop</h2>
                     </div>
                 </article>
-                <article class="Avaliacao">
-                    <div></div>
-                </article>
+            </section>
+            <br>
+            <section class="Avaliacao">
+
             </section>
         </main>
 
